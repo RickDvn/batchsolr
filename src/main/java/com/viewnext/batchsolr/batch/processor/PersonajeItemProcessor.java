@@ -8,7 +8,7 @@ import org.springframework.batch.item.ItemProcessor;
 import com.viewnext.batchsolr.model.Personaje;
 
 /**
- * Processor que devuelve el objeto TarifaPL sin ningun tipo de modificacion ni Skip Policy
+ * Precessor que transforma los Personajes a SolrInputDocuments
  */
 public class PersonajeItemProcessor implements ItemProcessor<Personaje, SolrInputDocument>{
 

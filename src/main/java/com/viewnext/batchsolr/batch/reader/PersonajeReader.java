@@ -27,7 +27,8 @@ public class PersonajeReader {
 	/**
 	 * Reader que lee de la base de datos
 	 * 
-	 * @return RepositoryItemReader<TarifaPL> con las tarifas de la base de datos
+	 * @return JdbcCursorItemReader<Personaje> con a consulta de la base de datos y un rowmapper para transformar
+	 * a Personaje
 	 */
 	@Bean(value = "readerDB")
 	public JdbcCursorItemReader<Personaje> read(DataSource dataSource) {

@@ -8,6 +8,10 @@ import org.springframework.batch.item.Chunk;
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.beans.factory.annotation.Autowired;
 
+/**
+ * Este es el writer que se encarga de indexar los personajes en Solr utilizando el SolrClient
+ * transformados en SolrInputDocument
+ */
 public class PersonajeItemWriter implements ItemWriter<SolrInputDocument>{
 
 	@Autowired

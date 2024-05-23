@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 public class PersonajeProcessor {
 
 	/**
-	 * El processor sin ningun tipo do Skip Policy ni modificacion
+	 * El processor que transforma Personaje -> SolrInputDocument
 	 * 
 	 * @return TarifaItemProcessor
 	 */

@@ -4,6 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * Modelo de los personajes
+ */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

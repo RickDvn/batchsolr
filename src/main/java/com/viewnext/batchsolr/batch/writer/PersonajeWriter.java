@@ -16,9 +16,9 @@ public class PersonajeWriter {
 	private static final Logger log = LoggerFactory.getLogger(PersonajeWriter.class);
 	
 	/**
-	 * El writer para escribir en el csv
+	 * El writer para indexar en Solr
 	 * 
-	 * @return El writer que escribirá en el csv
+	 * @return El writer que indexará en Solr
 	 */
 	@Bean(value = "writerSolr")
 	public PersonajeItemWriter writerLocal() {
